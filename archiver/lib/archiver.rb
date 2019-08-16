@@ -16,7 +16,7 @@ module Archiver
 
   def archived?
     # check if archive is not empty
-    not archived_at.nil?
+    archived_at.nil?
   end
 
 end
